@@ -1,0 +1,34 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 450px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: #5ad4d4;
+}
+
+.card h3{
+    color: #e03493;
+    text-align: center;
+}
+
+.card p{
+    color: #e03493;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.card img{
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 20px;
+    max-width: 410px;
+    height: 250px;
+}
